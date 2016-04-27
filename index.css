@@ -163,7 +163,7 @@
     display: block;
 }
 
-.news-content div div a :hover {
+.news-content div div a:hover {
     color: #ff6900;
 }
 
@@ -180,21 +180,33 @@
     float: right;
     margin: 0 0 0 8px;
     width: 20px;
-    background: url("back.png") no-repeat no-repeat -39px -146px;
+    background: url("back.png") no-repeat;
     transition: background-position .2s ease;
     -webkit-transition: background-position .2s ease;
 }
 
-.news-content div span a:hover {
-    background-position-y: -173px;
+.news-content div span a:nth-of-type(1) {
+    background-position: -39px -146px;
 }
 
 .news-content div span a:nth-of-type(2) {
-    background-position-x: -71px;
+    background-position: -71px -146px;
 }
 
 .news-content div span a:nth-of-type(3) {
-    background-position-x: 0;
+    background-position: 0 -146px;
+}
+
+.news-content div span a:nth-of-type(1):hover {
+    background-position: -39px -173px;
+}
+
+.news-content div span a:nth-of-type(2):hover {
+    background-position: -71px -173px;
+}
+
+.news-content div span a:nth-of-type(3):hover {
+    background-position: 0 -173px;
 }
 
 .news-content div div a.more {
@@ -215,7 +227,7 @@
 
 .news-content div div a.more:hover {
     color: #ffffff;
-    background-position-y: -92px;
+    background-position: 0 -92px;
 }
 
 .news-content .forum {

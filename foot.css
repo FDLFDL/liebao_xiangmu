@@ -34,23 +34,24 @@
 }
 
 .foot-nav .share a:nth-child(1) {
-    background-position-x: 5px;
+    background-position: 5px 0;
 }
 
 .foot-nav .share a:nth-child(2) {
-    background-position-x: -58px;
+    background-position: -58px 0;
     margin: 0 5px;
 }
 
 .foot-nav .share a:nth-child(3) {
-    background-position-x: -121px;
+    background-position: -121px 0;
 }
 
 .foot-nav .about-LB {
     color: #cccccc;
 }
 
-.foot-nav .about-LB a {font-size: 14px;
+.foot-nav .about-LB a {
+    font-size: 14px;
     margin: 0 5px;
     display: inline-block;
 }
