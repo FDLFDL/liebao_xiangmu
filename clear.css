@@ -1,0 +1,25 @@
+*{
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+}

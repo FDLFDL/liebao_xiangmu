@@ -1,0 +1,87 @@
+.Download_options {
+    background: #ff6900;
+}
+
+.options {
+    width: 620px;
+    margin: 0 auto;
+    padding: 180px 0 50px 0;
+}
+
+.options div {
+
+    height: 200px;
+
+}
+
+.options div img, .options div div {
+    float: left;
+    display: inline-block;
+}
+
+.options div div {
+    margin-left: 60px;
+    width: 240px;
+    height: 60px;
+}
+
+.options div div:last-of-type {
+    margin-top: 15px;
+}
+
+.options div div h2 {
+    font-size: 20px;
+    height: 34px;
+    line-height: 34px;
+
+}
+
+.options div div h2, .options div div span, .options div i {
+    color: #fdfdfd;
+}
+
+.options div i {
+    float: left;
+    width: 150px;
+    text-align: center;
+
+}
+
+.options div i span {
+    height: 50px;
+    line-height: 50px;
+}
+
+.options div a {
+    display: inline-block;
+    float: right;
+    width: 145px;
+    height: 43px;
+    line-height: 42px;
+    text-indent: 33px;
+    text-align: center;
+    color: #fdfdfd;
+    background: url("back.png") no-repeat 0 -402px;
+}
+
+.options div:nth-child(2) a {
+    background-position-y: -496px;
+}
+
+.options div:nth-child(2) a:last-of-type {
+    background-position-y: -595px;
+    margin-top: 15px;
+}
+
+.options div a:hover {
+    color: #ff6900;
+    background-position-y: -447px;
+}
+
+.options div:nth-child(2) a:hover {
+    background-position-y: -542px;
+}
+
+.options div:nth-child(2) a:last-of-type:hover {
+    background-position-y: -644px;
+}

@@ -1,0 +1,68 @@
+/*友情链接-S*/
+.foot {
+    clear: both;
+    width: 100%;
+    background: #333333;
+}
+
+.foot-nav {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 960px;
+}
+
+.foot-nav .share, .foot-nav .share a, .foot-nav .about-LB {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.foot-nav .share, .foot-nav .about-LB, .foot-nav p {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-nav .share a {
+    width: 50px;
+    background: url("newshares.png") no-repeat;
+    opacity: 0.6;
+}
+
+.foot-nav .share a:hover {
+    opacity: 1;
+}
+
+.foot-nav .share a:nth-child(1) {
+    background-position-x: 5px;
+}
+
+.foot-nav .share a:nth-child(2) {
+    background-position-x: -58px;
+    margin: 0 5px;
+}
+
+.foot-nav .share a:nth-child(3) {
+    background-position-x: -121px;
+}
+
+.foot-nav .about-LB {
+    color: #cccccc;
+}
+
+.foot-nav .about-LB a {font-size: 14px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.foot-nav .about-LB a:hover {
+    color: #ececec;
+}
+
+.foot-nav p {
+    height: 20px;
+    line-height: 20px;
+    color: #6d6d6d;
+}
+
+/*友情链接-Z*/
