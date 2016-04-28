@@ -37,6 +37,10 @@
     color: #ff6900;
 }
 
+.adaptation .ada-nav div a:hover h3 {
+    color: #565656;
+}
+
 .adaptation .ada-nav div a p {
     position: absolute;
     bottom: 46px;
@@ -257,7 +261,7 @@
     background: url("back.png") no-repeat 2px -227px;
 }
 
-.news-content .forum a:hover {
+.news-content .forum a:hover, .adaptation .ada-nav div a:hover p {
     color: #ff8a1b;
 }
 

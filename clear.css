@@ -1,10 +1,13 @@
 *{
-    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti, sans-serif;
     margin: 0;
     padding: 0;
     -webkit-user-select: none;
     user-select: none;
     font-size: 16px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+
 }
 
 ul li {
